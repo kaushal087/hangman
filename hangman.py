@@ -73,6 +73,9 @@ def hangman(secretWord):
         print"Available Letters: ", (getAvailableLetters(lettersGuessed)), "Used letters: ", lettersGuessed
         print "No of Guess left: ", guessLeft 
         letter = raw_input("Enter your Guess: ")
+	if(len(letter) != 1 ):
+		print "\nEnter only one character at a time\n"
+		continue 
         if letter not in lettersGuessed:
             lettersGuessed=lettersGuessed+letter
             if letter not in secretWord:
