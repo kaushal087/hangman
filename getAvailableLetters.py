@@ -1,6 +1,7 @@
 ###########################################################################
+from imports import *
 
-import string
+
 def getAvailableLetters(lettersGuessed):
     result=""
     for w in string.ascii_lowercase:
@@ -9,9 +10,9 @@ def getAvailableLetters(lettersGuessed):
     return result
 
 ##########################################################################
+############## test case #################################################
+# lettersGuessed=['e','i','k','p','r','s']
 
-lettersGuessed=['e','i','k','p','r','s']
-
-print getAvailableLetters(lettersGuessed)
+# print getAvailableLetters(lettersGuessed)
     
 ##########################################################################

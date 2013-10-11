@@ -1,4 +1,5 @@
 #########################################################################
+from imports import *
 
 def getGuessedWord(secretWord,lettersGuessed):
     printWord=""
@@ -10,11 +11,12 @@ def getGuessedWord(secretWord,lettersGuessed):
     return printWord
 
 #########################################################################
+############ test case ###############################################
 
-secretWord='apple'
-lettersGuessed=['e','i','k','p','r','s']
+# secretWord='apple'
+# lettersGuessed=['e','i','k','p','r','s']
 
-print secretWord
-print getGuessedWord(secretWord,lettersGuessed)
+# print secretWord
+# print getGuessedWord(secretWord,lettersGuessed)
 
 ########################################################################
