@@ -1,4 +1,4 @@
-hangman
+Hangman
 =======
 
 The Hangman game written in Python 2.7.3
